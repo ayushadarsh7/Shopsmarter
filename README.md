@@ -493,7 +493,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <br><br>
   
   <a href="#quick-start">🚀 Get Started</a> •
-  <a href="#demo--screenshots">📸 See Demo</a> •
   <a href="#contributing">🤝 Contribute</a> •
-  <a href="mailto:team@avtar.dev">📧 Contact</a>
+  <a href="mailto:ayushadarsh2019@gmail.com">📧 Contact</a>
 </div>

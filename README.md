@@ -9,23 +9,23 @@
   <img src="https://img.shields.io/badge/AI-Gemini%202.0-purple" alt="AI Model">
 </div>
 
-## 🚀 Project Overview
+## Project Overview
 
 **ShopSmarter** is an intelligent AI-powered Personal Shopping Assistant that revolutionizes the e-commerce experience by understanding visual inputs and automating the shopping process. Our system analyzes images of apparel, accessories, home decor, gadgets, and other products to suggest similar or complementary items, creating a truly personalized shopping journey.
 
-### 🎯 Hackathon Problem Statement
+###  Hackathon Problem Statement
 *"Design and develop an AI-powered Personal Shopping Assistant that personalises the shopping experience for an e-commerce website and also automates the process. The system should understand visual inputs (such as apparel, accessories, home decor, gadgets, etc.) and suggest similar or complementary products available in the store."*
 
-### 💡 Our Solution
+### Our Solution
 ShopSmarter addresses this challenge through a comprehensive AI-driven platform that combines:
 - **Advanced Computer Vision**: Multi-modal AI for understanding diverse product categories
 - **Intelligent Recommendation Engine**: Context-aware suggestions for similar and complementary products
 - **Automated Shopping Process**: Streamlined discovery-to-purchase workflow
 - **Cross-Platform Integration**: Seamless experience across web and browser extension
 
-## ✨ Salient Features of Our Codebase
+##  Salient Features of Our Codebase
 
-### 🧠 **1. Multi-Modal AI Agent Architecture (`ai_agent.py`)**
+### **1. Multi-Modal AI Agent Architecture (`ai_agent.py`)**
 Our core AI system leverages **LangGraph** with **Google Gemini 2.0 Flash** for sophisticated visual understanding:
 
 ```python
@@ -44,7 +44,7 @@ llm_with_tools = llm.bind_tools([search_tool])
 - **Style Categorization**: Understands fashion aesthetics, interior design styles
 - **Contextual Understanding**: Distinguishes between product categories (apparel vs. home decor vs. gadgets)
 
-### 🔍 **2. Intelligent Search Integration (`tools.py`)**
+###  **2. Intelligent Search Integration (`tools.py`)**
 Real-time product discovery through DuckDuckGo search integration:
 
 ```python
@@ -61,7 +61,7 @@ search_tool = Tool(
 - Price comparison across platforms
 - Trend-aware recommendations
 
-### 🌐 **3. RESTful API Backend (`app.py`)**
+### **3. RESTful API Backend (`app.py`)**
 Flask-powered backend supporting multi-modal interactions:
 
 ```python
@@ -83,7 +83,7 @@ def chat():
 - **Thread Management**: Persistent conversation history
 - **CORS Support**: Cross-origin resource sharing for web integration
 
-### 🎨 **4. Modern React Frontend (`ai_agent_interface/`)**
+###  **4. Modern React Frontend (`ai_agent_interface/`)**
 Responsive web application with rich user interactions:
 
 ```jsx
@@ -106,7 +106,7 @@ const sendMessage = async () => {
 - **Responsive Design**: Mobile-first approach
 - **Image Preview**: Visual confirmation before sending
 
-### 🔧 **5. Chrome Extension Integration (`ai_agent_extension/`)**
+###  **5. Chrome Extension Integration (`ai_agent_extension/`)**
 Seamless browser integration for in-page shopping assistance:
 
 ```javascript
@@ -125,7 +125,7 @@ function captureSelectedArea(left, top, width, height) {
 - **Dynamic Sidebar**: Resizable and responsive UI
 - **Background State Management**: Maintains shopping context
 
-### 🤖 **6. Intelligent Product Recommendation System**
+### **6. Intelligent Product Recommendation System**
 Our AI system provides sophisticated product suggestions:
 
 #### **Similar Product Discovery**
@@ -150,7 +150,7 @@ user-provided images and text queries to offer relevant product recommendations.
 """
 ```
 
-### 📊 **7. Conversation Memory & State Management**
+### **7. Conversation Memory & State Management**
 Persistent shopping context across sessions:
 
 ```python
@@ -174,7 +174,7 @@ def get_state(thread_id: str = "1") -> dict:
 - **Product-Specific Queries**: Includes identified brands, styles, and specifications
 - **Price-Aware Suggestions**: Considers budget ranges when available
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### System Flow
 ```
@@ -213,7 +213,7 @@ def get_state(thread_id: str = "1") -> dict:
 - **Content Scripts**: Page interaction and capture
 - **Screen Capture API**: Advanced area selection and image capture
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Python 3.11+** 
@@ -263,7 +263,7 @@ npm run build && npm run preview
 3. Click "Load unpacked" and select the `ai_agent_extension/dist` folder
 4. The ShopSmarter extension will appear in your browser toolbar
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Web Interface
 1. **Visit**: `http://localhost:5173` (frontend) 
@@ -295,7 +295,7 @@ npm run preview
 ```
 
 
-## 📁 Project Structure
+##  Project Structure
 ```
 
 
@@ -345,27 +345,27 @@ appian_ai_agent-browser-tools/
 
 
 
-## 🌟 Key Features
+## Key Features
 
-### 🎨 **Modern UI/UX Design**
+###  **Modern UI/UX Design**
 - **Glass Morphism Effects**: Beautiful modern interface with gradient backgrounds
 - **Responsive Design**: Seamless experience across desktop, tablet, and mobile
 - **Dark Theme**: Eye-friendly interface with sophisticated color schemes
 - **Smooth Animations**: Fluid transitions and interactive elements
 
-### 🤖 **Advanced AI Capabilities**
+### **Advanced AI Capabilities**
 - **Multi-Modal Understanding**: Processes both images and text simultaneously
 - **Context Awareness**: Maintains conversation history and shopping preferences
 - **Brand Recognition**: Identifies specific brands and suggests alternatives
 - **Style Analysis**: Understands fashion trends, color coordination, and design aesthetics
 
-### 🔍 **Smart Product Discovery**
+###  **Smart Product Discovery**
 - **Visual Search**: Upload any product image for instant recommendations
 - **Screen Capture**: Capture products directly from any website
 - **Category Intelligence**: Specialized recommendations for fashion, home decor, gadgets
 
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions to **ShopSmarter**! Please follow these steps:
 
@@ -416,7 +416,7 @@ We welcome contributions to **ShopSmarter**! Please follow these steps:
 - **Testing**: Add comprehensive test coverage
 - **Documentation**: Improve guides and API documentation
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -451,31 +451,31 @@ npm run build --verbose
 - **Gadgets**: Show device → Discover compatible accessories
 - **Shopping**: Screenshot product → Compare prices & alternatives
 
-## 🌍 Future Roadmap
+## Future Roadmap
 
 ### Phase 1 (Current)
-- ✅ Multi-modal AI integration
-- ✅ Chrome extension with screen capture
-- ✅ Modern responsive web interface
-- ✅ Real-time product recommendations
+- Multi-modal AI integration
+- Chrome extension with screen capture
+- Modern responsive web interface
+- Real-time product recommendations
 
 ### Phase 2 (Upcoming)
-- 🔄 User accounts and shopping history
-- 🔄 Advanced filters and preferences
-- 🔄 Price tracking and alerts
-- 🔄 Mobile application (React Native)
+- User accounts and shopping history
+- Advanced filters and preferences
+- Price tracking and alerts
+- Mobile application (React Native)
 
 ### Phase 3 (Future)
-- 📋 Multi-platform browser support
-- 📋 AR/VR integration for virtual try-on
-- 📋 Social shopping features
-- 📋 Marketplace integration beyond Amazon
+- Multi-platform browser support
+- AR/VR integration for virtual try-on
+- Social shopping features
+- Marketplace integration beyond Amazon
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Google Gemini Team** for powerful vision-language capabilities
 - **LangChain Community** for excellent AI framework and tools
@@ -488,11 +488,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <strong>🛍️ Built with ❤️ by Team AVTAR for APPIAN Hackathon 🚀</strong>
   
   <br><br>
   
-  <a href="#quick-start">🚀 Get Started</a> •
-  <a href="#contributing">🤝 Contribute</a> •
-  <a href="mailto:ayushadarsh2019@gmail.com">📧 Contact</a>
+  <a href="#quick-start"> Get Started</a> •
+  <a href="#contributing"> Contribute</a> •
+  <a href="mailto:ayushadarsh2019@gmail.com"> Contact</a>
 </div>

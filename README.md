@@ -471,19 +471,7 @@ npm run build --verbose
 - Social shopping features
 - Marketplace integration beyond Amazon
 
-##  License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-##  Acknowledgments
-
-- **Google Gemini Team** for powerful vision-language capabilities
-- **LangChain Community** for excellent AI framework and tools
-- **React Team** for the amazing frontend framework
-- **Vite Team** for lightning-fast build tooling
-- **Tailwind CSS** for modern utility-first CSS framework
-- **Chrome Extensions Team** for comprehensive Manifest V3 documentation
-- **APPIAN Hackathon** for the inspiring challenge and opportunity
 
 ---
 
